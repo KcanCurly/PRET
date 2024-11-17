@@ -12,7 +12,7 @@ import collections
 
 # local pret classes
 from src.printer import printer
-from operators import operators
+from src.operators import operators
 from src.helper import log, output, conv, file, item, const as c
 
 
