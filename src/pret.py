@@ -10,7 +10,7 @@ import argparse
 
 # local pret classes
 from discovery import discovery
-from capabilities import capabilities
+from src.capabilities import capabilities
 from postscript import postscript
 from pjl import pjl
 from pcl import pcl
