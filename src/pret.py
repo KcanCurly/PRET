@@ -12,8 +12,8 @@ import argparse
 from src.discovery import discovery
 from src.capabilities import capabilities
 from src.postscript import postscript
-from pjl import pjl
-from pcl import pcl
+from src.pjl import pjl
+from src.pcl import pcl
 
 # ----------------------------------------------------------------------
 
