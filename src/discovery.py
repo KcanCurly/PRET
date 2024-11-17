@@ -5,7 +5,7 @@
 import socket
 
 # local pret classes
-from helper import output, conv
+from src.helper import output, conv
 
 # third party modules
 try:

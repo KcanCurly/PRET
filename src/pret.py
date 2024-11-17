@@ -9,11 +9,11 @@ import sys
 import argparse
 
 # local pret classes
-from discovery import discovery
-from capabilities import capabilities
-from postscript import postscript
-from pjl import pjl
-from pcl import pcl
+from src.discovery import discovery
+from src.capabilities import capabilities
+from src.postscript import postscript
+from src.pjl import pjl
+from src.pcl import pcl
 
 # ----------------------------------------------------------------------
 
@@ -76,9 +76,7 @@ def main():
 
 # ----------------------------------------------------------------------
 
-
-# clean exit
-if __name__ == '__main__':
+def main2():
     try:
         main()
     # catch CTRL-C
@@ -86,3 +84,8 @@ if __name__ == '__main__':
         pass
     finally:
         print("")
+
+
+# clean exit
+if __name__ == '__main__':
+    main2()

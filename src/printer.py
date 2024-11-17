@@ -17,9 +17,9 @@ import subprocess
 import traceback
 
 # local pret classes
-from helper import log, output, conv, file, item, conn, const as c
-from discovery import discovery
-from fuzzer import fuzzer
+from src.helper import log, output, conv, file, item, conn, const as c
+from src.discovery import discovery
+from src.fuzzer import fuzzer
 
 
 class printer(cmd.Cmd, object):

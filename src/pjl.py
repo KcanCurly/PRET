@@ -8,9 +8,9 @@ import random
 import posixpath
 
 # local pret classes
-from printer import printer
-from codebook import codebook
-from helper import log, output, conv, file, item, chunks, const as c
+from src.printer import printer
+from src.codebook import codebook
+from src.helper import log, output, conv, file, item, chunks, const as c
 
 
 class pjl(printer):

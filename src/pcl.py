@@ -8,8 +8,8 @@ import json
 import random
 
 # local pret classes
-from printer import printer
-from helper import log, output, conv, item, const as c
+from src.printer import printer
+from src.helper import log, output, conv, item, const as c
 
 
 class pcl(printer):

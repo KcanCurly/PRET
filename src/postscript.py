@@ -11,9 +11,9 @@ import json
 import collections
 
 # local pret classes
-from printer import printer
+from src.printer import printer
 from operators import operators
-from helper import log, output, conv, file, item, const as c
+from src.helper import log, output, conv, file, item, const as c
 
 
 class postscript(printer):
