@@ -24,7 +24,7 @@ setup(
     python_requires=">=3.9",
     entry_points={
         "console_scripts": [
-            "pret=pret:main2",
+            "pret=src.pret:main2",
         ],
     },
 )
