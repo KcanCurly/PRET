@@ -9,11 +9,11 @@ import sys
 import argparse
 
 # local pret classes
-from src.discovery import discovery
-from src.capabilities import capabilities
-from src.postscript import postscript
-from src.pjl import pjl
-from src.pcl import pcl
+from discovery import discovery
+from capabilities import capabilities
+from postscript import postscript
+from pjl import pjl
+from pcl import pcl
 
 # ----------------------------------------------------------------------
 
