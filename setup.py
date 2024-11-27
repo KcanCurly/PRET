@@ -12,7 +12,7 @@ setup(
     install_requires=[
         "requests",
         "colorama",
-        "pysnmp"
+        "pysnmp-lextudio==5.0.31"
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
